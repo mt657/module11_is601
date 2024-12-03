@@ -13,7 +13,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.exc import SQLAlchemyError
 from sqlalchemy.orm import sessionmaker
 
-from app.models import Base, User  # Ensure these imports are correct based on your project structure
+from app.models import Base, User
 from app.schemas import UserData
 from app.settings import Settings  # Adjust the import path based on where Settings is defined
 
